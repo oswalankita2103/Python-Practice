@@ -9,6 +9,6 @@ class Cat(Animal):
     def sound(self):
          print("Cat meows")
 
-animal = [Dog(),Cat(),Animal()]
+animal = [Animal(),Dog(),Cat()]
 for a in animal:
     a.sound()
